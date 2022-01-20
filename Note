@@ -1,0 +1,14 @@
+---- Quần áo
+-------- Quần áo nam
+------------ Quần  áo nam mùa đông
+-------- Quần áo nữ
+------------ Quần áo nữ mùa đông
+
+
+$item = array(
+    array(id => 1, name=>"Quần áo", parentId = 0),
+    array(id => 2, name=>"Quần áo nam", parentId = 1),
+    array(id => 3, name=>"Quần áo nam mùa đông", parentId = 2),
+    array(id => 4, name=>"Quần áo nữ", parentId = 1),
+    array(id => 5, name=>"Quần áo nữ mùa đông", parentId = 4),
+)
